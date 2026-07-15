@@ -286,7 +286,7 @@ export async function runStableAPIConnect() {
 }
 runStableAPIConnect().catch(console.dir);
 
-// export default app;
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
+export default app;
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`);
+// });
